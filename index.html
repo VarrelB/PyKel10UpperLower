@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.2/brython.js" integrity="sha512-ZyGKn+akFwl1HFxnnp8ZAb1lLeMywDTFFdI38R07l7xBeZ8igvwDXAuQgiZqV7UOqJVPZPlNG1gY6cNUwHTzUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.2/brython_stdlib.js" integrity="sha512-meZidFhbPKkaFK504w0Ns0JlXgEfLCEzV8WgJnyv2A4fn2I23xvshuXiF+74jxuQV85VbOrzsIu/2Eaz/0MqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Kelompok 10</title>
+</head>
+<body onload="brython()">
+    <header>
+        <h1>Konversi kata ke Uppercase/Lowercase</h1>
+    </header>
+    <select id="select">
+        <option value="Upper">to Upper</option>
+        <option value="Lower">to Lower</option>
+    </select>
+    <input type="text" id="input" placeholder="Masukkan Kata...">
+    <button id="btn">Konversi</button>
+    <div id="output"></div>
+    <script type="text/python" src="app.py"></script>
+</body>
+</html>
